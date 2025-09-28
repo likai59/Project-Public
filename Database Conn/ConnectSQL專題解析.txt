@@ -1,0 +1,130 @@
+ConnectSQL專題解析
+Java JDBC(Java Database Connectivity)
+{{功能與構成
+  跨資料庫標準介面 - API、 SQL語句分離，不必理會底層資料庫的驅動和通訊細節
+  涵蓋操作 - 可執行 新增、 查詢、 更新、 刪除等操作。
+}}
+{{程式碼
+import java.sql.Connection; # 表示和資料庫的連線物件
+import java.sql.DriverManager; # 用來取得資料庫連線
+import java.sql.ResultSet; # 查詢結果的資料集合
+import java.sql.Statement; # 用來執行 SQL 語句
+
+public class Main{
+    public static void main(String[] args) {
+        String url = "jdbc:mysql://localhost:3306/gtalent2"; # "jdbc:mysql://[主機]:[port]/[資料庫名稱]"
+        String user = "root"; 
+        String password = "123456";
+		# 連線帳號密碼
+        try{
+            # 1. 載入 JDBC 驅動(舊版少 cj.)
+            Class.forName("com.mysql.cj.jdbc.Driver");
+			
+            # 2. 建立連線 - 成功會回傳一個 Connection 物件
+            Connection conn = DriverManager.getConnection(url, user, password);
+            System.out.println("=== connected success ===");
+
+            # 3. 建立狀態 - Statement 是最基本的 SQL 執行方式
+            Statement stmt = conn.createStatement();
+
+            # 4. 執行查詢 - executeQuery → 用來執行 SELECT 查詢，結果會包在 ResultSet 裡
+		    #   		   ResultSet 會指向查詢結果的第一列之前 - 必須呼叫 rs.next() 才能移到第一列
+			# 			   篩選條件直接皆於後方
+            ResultSet rs = stmt.executeQuery("SELECT * FROM employees");
+			
+            ''' 5. 顯示結果 
+			rs.next() → 移動游標到下一列，如果沒有更多資料則回傳 false
+			rs.getInt("欄位名") / rs.getString("欄位名") → 依欄位名稱取得資料 # 欄位名稱必須和資料庫的欄位對應
+			'''
+            while (rs.next()){
+                System.out.println("ID:" + rs.getInt("employee_id") +
+                        ", first name:" + rs.getString("first_name") +
+                        ", last name:" + rs.getString("last_name") +
+                        ", email:" + rs.getString("email"));
+            }
+
+            # 6. 關閉連線 - JDBC 資源不會自動釋放，必須手動關閉 - 順序(ResultSet → Statement → Connection)
+            rs.close();
+            stmt.close();
+            conn.close();
+        }
+		# 捕捉所有例外，並印出錯誤訊息
+        catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+    }
+}
+}}
+{{Driver Download(MySQL) And Use
+  Download -  MySQL -> DOWNLOADS -> MySQL Community (GPL) Downloads -> Download Archives -> MySQL Connector/J,Connector/.NET ->
+			  Version - Your MySQL Version, Operating System - Platform Independent ->
+			  Platform Independent (Architecture Independent), ZIP Archive(Download)
+  Java - IDEAj
+		 Use - File -> Project Structu re -> Modules -> Dependencies "+" -> JARs or Directories -> Choose the file(.jar) ->
+			   "OK" -> RUN
+  CSharp - Jetbrain
+		   Explorer > solution(Right Click) > Add(reference) > Add From > MySql.Data.dll
+		   # 有錯誤 - solution > Dependencies > .NET 8.0 > Assemblies > Implicit >
+		   #          MySql.Data(Right Click) > "Delete" > reload
+}}	
+{{Supplement
+  Why needs Driver/Connector - 有不同的資料庫（MySQL、PostgreSQL、Oracle）
+							   溝通協定不同，JDBC API 只是介面，真正的實作由 Driver 負責
+  try-with-resources - 會自動關閉資源 # 第2步改為以下
+		try (Connection conn = DriverManager.getConnection(url, user, password);
+}}
+CSharp
+{{程式碼
+  using MySql.Data.MySqlClient; # 使用 MySQL Connector/NET操作資料庫
+  class  Program
+  {
+  	static void Main(string[] args)
+  	{
+  		string connection = "server=localhost;user=root;password=123456;database=gtalent2";\
+		# 連線字串 - 連線到本機 MySQL,使用者帳號,密碼,操作的資料庫
+  		MySqlConnection conn = null; # 資料庫連線
+  		MySqlDataReader reader = null; # 查詢結果物件
+  
+  		try
+  		{
+  			conn = new MySqlConnection(connection); # 建立連線物件
+  			conn.Open(); # 與資料庫建立連線
+  			Console.WriteLine("===連線成功===");
+  
+  			string sql = "SELECT * FROM employees " + 
+  			             "ORDER BY hire_date ASC "; # SQL 指令
+  			MySqlCommand cmd = new MySqlCommand(sql, conn);
+			# 負責送出 SQL 指令(指令, 連線物件)
+  			reader = cmd.ExecuteReader(); # 回傳 MySqlDataReader，讓你逐列讀取結果
+  			Console.WriteLine($"User : root");
+  			while (reader.Read()) # 逐行讀取結果，直到沒資料
+  			{
+  				Console.WriteLine( "ID : {0,-3} - {1,-10}, hire_date : {2,-10}, job : {3,-10}, salary : {4,-5}",  
+  				# 根據欄位名稱取值
+				reader.GetInt32("employee_id"), 
+  				reader.GetString("first_name"),
+  				reader.GetDateTime("hire_date").ToString("yyyy-MM-dd"),
+  				reader.GetString("job_id"),
+  				reader.GetInt32("salary"));
+  			}
+  		}
+  		catch (Exception ex)
+  		{
+  			Console.WriteLine(ex.Message);
+  		}
+  		finally
+  		{
+  			if (reader != null)
+  			{
+  				reader.Close();
+  			}
+  
+  			if (conn != null)
+  			{
+  				conn.Close();
+  			}
+  		}
+  		Console.ReadKey();
+  	}
+  }
+}}
