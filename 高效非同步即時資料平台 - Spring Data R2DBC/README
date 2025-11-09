@@ -1,0 +1,35 @@
+# R2DBC - Reactive Relational Database connectivity
+
+特性      |       R2DBC       |   JPA
+----------------------------------------
+非同步     |   Yes(Mono/Flux)  |   NO(傳統同步)
+資料庫連線  |   reactive driver |   JDBC driver
+
+
+Mono vs Flux:
+Mono<T>: 單一資料 Mono<Book> findById(int id);
+Flux<T>: 多筆資料 Flux<Book> findAll();
+
+# POM 要加入 MariaDB 才能使用MySQL
+
+1. @GetMapping()
+URL: http://localhost:8080/api/books
+GET
+
+2. @PostMapping()
+URL: http://localhost:8080/api/books
+POST
+Body:
+{
+    "title": "I love Java",
+    "description": "Insert data into database"
+
+}
+
+3. @DeleteMapping()
+URl: http://localhost:8080/api/books
+DELETE
+
+4.@DeleteMapping()
+URL: http//localhost:8080/api/books/{id}
+DELETE
