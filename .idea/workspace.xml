@@ -4,87 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="893a5529-9187-4355-8e89-99166c657ce5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Project-Public.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project-Public.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/.idea/springdata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/.idea/springdata.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/.idea/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/.idea/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/springdata/src/main/java/com/gtalent/springdata/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/springdata/src/main/java/com/gtalent/springdata/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/springdata/src/main/java/com/gtalent/springdata/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/springdata/src/main/java/com/gtalent/springdata/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/springdata/src/main/java/com/gtalent/springdata/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/springdata/src/main/java/com/gtalent/springdata/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/springdata/src/main/java/com/gtalent/springdata/repository/jdbcBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/springdata/src/main/java/com/gtalent/springdata/repository/jdbcBookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/springdata/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/springdata/src/main/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/.idea/projectSpringJpa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/.idea/projectSpringJpa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/projectSpringJpa/README" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/projectSpringJpa/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/projectSpringJpa/src/main/java/com/gtalent/projectSpringJpa/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/projectSpringJpa/src/main/java/com/gtalent/projectSpringJpa/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/projectSpringJpa/src/main/java/com/gtalent/projectSpringJpa/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/projectSpringJpa/src/main/java/com/gtalent/projectSpringJpa/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/projectSpringJpa/src/main/java/com/gtalent/projectSpringJpa/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧圖書館資料串流平台 - Spring Data JPA(MySQL)_Local,AWS RDS/projectSpringJpa/src/main/java/com/gtalent/projectSpringJpa/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/.idea/project-sb-aws-s3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/.idea/project-sb-aws-s3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/project-sb-aws-s3/README" beforeDir="false" afterPath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/project-sb-aws-s3/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/project-sb-aws-s3/src/main/java/com/gtalent/project_sb_aws_s3/config/AwsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/project-sb-aws-s3/src/main/java/com/gtalent/project_sb_aws_s3/config/AwsConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/project-sb-aws-s3/src/main/java/com/gtalent/project_sb_aws_s3/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/project-sb-aws-s3/src/main/java/com/gtalent/project_sb_aws_s3/controller/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/project-sb-aws-s3/src/main/java/com/gtalent/project_sb_aws_s3/file/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/project-sb-aws-s3/src/main/java/com/gtalent/project_sb_aws_s3/file/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/project-sb-aws-s3/src/main/java/com/gtalent/project_sb_aws_s3/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/project-sb-aws-s3/src/main/java/com/gtalent/project_sb_aws_s3/service/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/project-sb-aws-s3/src/main/java/com/gtalent/project_sb_aws_s3/service/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧型檔案管理平台 - Spring Boot串接AWS S3/project-sb-aws-s3/src/main/java/com/gtalent/project_sb_aws_s3/service/FileServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/README" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/configuration/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/configuration/WebSocketConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/controller/ICUController.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/controller/ICUController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/handler/ICUSignalWebSocketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/handler/ICUSignalWebSocketHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/model/ICUSignal.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/model/ICUSignal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/model/ICUSignalPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/model/ICUSignalPayload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/repository/ICURepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/repository/ICURepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/frontend/src/components/SignalRow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/frontend/src/components/SignalRow.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUSimulator/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUSimulator/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUSimulator/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUSimulator/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUSimulator/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUSimulator/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUSimulator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUSimulator/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUSimulator/src/main/java/com/gtalent/ICUSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUSimulator/src/main/java/com/gtalent/ICUSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/.idea/語言通用性實作 - Maven_Java,Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/.idea/語言通用性實作 - Maven_Java,Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/demo/src/main/java/com/gtalent/demo/util/JavaPythonCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/demo/src/main/java/com/gtalent/demo/util/JavaPythonCall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/demo/src/main/java/com/gtalent/demo/util/JavaPythonFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/demo/src/main/java/com/gtalent/demo/util/JavaPythonFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/demo/src/main/java/com/gtalent/demo/util/JavaPythonRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/demo/src/main/java/com/gtalent/demo/util/JavaPythonRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/demo/src/main/java/com/gtalent/demo/util/RuntimeFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/demo/src/main/java/com/gtalent/demo/util/RuntimeFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/demo/src/main/resources/python/JavaPyhonFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/demo/src/main/resources/python/JavaPyhonFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/demo/src/main/resources/python/JavaPythonCall.py" beforeDir="false" afterPath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/demo/src/main/resources/python/JavaPythonCall.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/demo/src/main/resources/python/RuntimeFunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/語言通用性實作 - Maven_Java,Python/demo/src/main/resources/python/RuntimeFunction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/projectSpringR2DBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/projectSpringR2DBC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/README" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/projectSpringR2DBC/src/main/java/com/gtalent/projectSpringR2DBC/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/projectSpringR2DBC/src/main/java/com/gtalent/projectSpringR2DBC/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/projectSpringR2DBC/src/main/java/com/gtalent/projectSpringR2DBC/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/projectSpringR2DBC/src/main/java/com/gtalent/projectSpringR2DBC/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/projectSpringR2DBC/src/main/java/com/gtalent/projectSpringR2DBC/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/projectSpringR2DBC/src/main/java/com/gtalent/projectSpringR2DBC/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/projectSpringR2DBC/src/main/java/com/gtalent/projectSpringR2DBC/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/projectSpringR2DBC/src/main/java/com/gtalent/projectSpringR2DBC/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/projectSpringR2DBC/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/projectSpringR2DBC/src/main/resources/schema.sql" afterDir="false" />
-    </list>
+    <list default="true" id="893a5529-9187-4355-8e89-99166c657ce5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,19 +21,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/likai/Documents/GitHub/Project-Public&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "last_opened_file_path": "C:/Users/likai/Documents/GitHub/Project-Public"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\likai\Documents\GitHub\Project-Public" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Project-Public" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Project-Public" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Project-Public" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Project-Public" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
