@@ -1,0 +1,17 @@
+					| 角色	 	| 說明
+ICUSignalPayload	  DTO	 	  接收前端/模擬器送來的資料		
+ICUSignal			  Entity 	  對應資料庫的表格
+--------------------------------------------------------
+springboot + WebSocket + HTTP + react.js (全端)
+--------------------------------------------------------
+// html, js, css
+// vue.js, react.js, angular
+
+react.js --> javascript xml (jsx) --> 可以在JS裡寫HTML
+
+function App(){
+    return <div> Hello React.js </div>
+}
+
+--------------------------------------------------------
+vue 語法比較直覺，React 抽象邏輯封裝
