@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS/springdata/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
