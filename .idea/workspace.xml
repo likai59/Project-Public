@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="893a5529-9187-4355-8e89-99166c657ce5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/README" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/configuration/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/configuration/WebSocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/controller/ICUController.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/controller/ICUController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/handler/ICUSignalWebSocketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/handler/ICUSignalWebSocketHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/model/ICUSignal.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/model/ICUSignal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/model/ICUSignalPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/model/ICUSignalPayload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/repository/ICURepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/backend/src/main/java/com/gtalent/ICUReceiver/repository/ICURepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/frontend/src/components/SignalRow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUReceiver/frontend/src/components/SignalRow.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUSimulator/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUSimulator/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUSimulator/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUSimulator/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUSimulator/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUSimulator/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUSimulator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUSimulator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUSimulator/src/main/java/com/gtalent/ICUSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/智慧生理訊號監控平台 - ICU多訊號即時分析/ICUSimulator/src/main/java/com/gtalent/ICUSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/projectSpringR2DBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/.idea/projectSpringR2DBC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/README" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/projectSpringR2DBC/src/main/java/com/gtalent/projectSpringR2DBC/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/projectSpringR2DBC/src/main/java/com/gtalent/projectSpringR2DBC/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/projectSpringR2DBC/src/main/java/com/gtalent/projectSpringR2DBC/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/projectSpringR2DBC/src/main/java/com/gtalent/projectSpringR2DBC/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/projectSpringR2DBC/src/main/java/com/gtalent/projectSpringR2DBC/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/projectSpringR2DBC/src/main/java/com/gtalent/projectSpringR2DBC/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/projectSpringR2DBC/src/main/java/com/gtalent/projectSpringR2DBC/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/projectSpringR2DBC/src/main/java/com/gtalent/projectSpringR2DBC/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/projectSpringR2DBC/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/高效非同步即時資料平台 - Spring Data R2DBC/projectSpringR2DBC/src/main/resources/schema.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="35EIx6kyNzP0WpPjrTfAeGKm6Dv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/likai/Documents/GitHub/Project-Public"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\likai\Documents\GitHub\Project-Public" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="893a5529-9187-4355-8e89-99166c657ce5" name="Changes" comment="" />
+      <created>1762669048595</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762669048595</updated>
+    </task>
+    <servers />
+  </component>
+</project>
