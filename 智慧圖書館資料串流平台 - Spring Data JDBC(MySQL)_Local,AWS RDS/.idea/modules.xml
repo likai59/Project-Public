@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springdata/springdata.iml" filepath="$PROJECT_DIR$/springdata/springdata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS.iml" filepath="$PROJECT_DIR$/.idea/智慧圖書館資料串流平台 - Spring Data JDBC(MySQL)_Local,AWS RDS.iml" />
+    </modules>
+  </component>
+</project>
