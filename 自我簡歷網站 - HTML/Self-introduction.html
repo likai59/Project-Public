@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="個人自我介紹與作品集——簡潔、可列印、行動裝置友善。" />
+  <title>洪苙凱 — 自我介紹</title>
+  <style>
+    :root{
+      --bg: #0b1020;
+      --card: #111631;
+      --text: #e8ecf1;
+      --muted: #a4b0be;
+      --brand: #8ab4ff;
+      --accent: #22d3ee;
+      --ring: rgba(138,180,255,.45);
+      --shadow: 0 10px 30px rgba(2,6,23,.35);
+    }
+    @media (prefers-color-scheme: light){
+      :root{ --bg:#f8fafc; --card:#ffffff; --text:#0f172a; --muted:#475569; --brand:#3b82f6; --accent:#06b6d4; --ring:rgba(59,130,246,.35); }
+    }
+    *{ box-sizing:border-box }
+    html,body{ height:100% }
+    body{
+      margin:0; font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, "PingFang TC", "Hiragino Sans", "Microsoft JhengHei", sans-serif;
+      color:var(--text); background:radial-gradient(1200px 600px at 10% -10%, rgba(34,211,238,.15), transparent),
+              radial-gradient(1200px 800px at 120% 10%, rgba(59,130,246,.12), transparent), var(--bg);
+    }
+    a{ color:var(--brand); text-decoration:none }
+    a:hover{ text-decoration:underline }
+    .container{ width:min(1100px, 92%); margin:0 auto; padding:28px 0 64px }
+    header{ position:sticky; top:0; backdrop-filter:saturate(180%) blur(10px); background:color-mix(in srgb, var(--bg) 80%, transparent); z-index:10; border-bottom:1px solid color-mix(in srgb, var(--text) 12%, transparent) }
+    .nav{ display:flex; align-items:center; justify-content:space-between; gap:16px; padding:14px 0 }
+    .nav a{ font-weight:600 }
+    .brand{ display:flex; align-items:center; gap:12px }
+    .avatar{ width:42px; height:42px; border-radius:50%; object-fit:cover; border:2px solid color-mix(in srgb, var(--brand) 50%, white 0%); box-shadow:var(--shadow) }
+    .btn{ display:inline-flex; align-items:center; gap:8px; padding:10px 14px; border-radius:14px; border:1px solid color-mix(in srgb, var(--text) 14%, transparent); background:linear-gradient(180deg, color-mix(in srgb, var(--card) 90%, white 0%), var(--card)); box-shadow:var(--shadow); color:var(--text); font-weight:600 }
+    .btn:hover{ transform:translateY(-1px) }
+
+    .hero{ display:grid; grid-template-columns:1.2fr .8fr; gap:32px; align-items:center; padding:42px 0 }
+    .hero h1{ font-size: clamp(28px, 4.2vw, 48px); line-height:1.2; margin:0 0 8px }
+    .hero p.lead{ font-size: clamp(16px, 2.2vw, 20px); color:var(--muted); margin:8px 0 16px }
+    .chip{ display:inline-flex; align-items:center; gap:8px; padding:6px 10px; border-radius:999px; background:color-mix(in srgb, var(--accent) 15%, transparent); border:1px dashed color-mix(in srgb, var(--accent) 50%, transparent); font-size:14px }
+
+    .card{ background:var(--card); border:1px solid color-mix(in srgb, var(--text) 8%, transparent); border-radius:20px; padding:18px; box-shadow:var(--shadow) }
+    section{ margin-top:26px }
+    section h2{ font-size:22px; margin:0 0 12px }
+
+    .grid{ display:grid; gap:14px }
+    .grid.cols-2{ grid-template-columns: repeat(2, minmax(0, 1fr)) }
+    .grid.cols-3{ grid-template-columns: repeat(3, minmax(0, 1fr)) }
+    @media (max-width: 860px){ .hero{ grid-template-columns:1fr } .grid.cols-2, .grid.cols-3{ grid-template-columns:1fr } }
+
+    .tag{ display:inline-block; padding:6px 10px; border-radius:999px; border:1px solid color-mix(in srgb, var(--text) 10%, transparent); margin:6px 6px 0 0; font-size:14px }
+
+    .timeline{ position:relative; padding-left:20px }
+    .timeline:before{ content:""; position:absolute; left:6px; top:4px; bottom:6px; width:2px; background: color-mix(in srgb, var(--brand) 50%, transparent) }
+    .tl-item{ position:relative; margin:0 0 14px; padding-left:18px }
+    .tl-item:before{ content:""; position:absolute; left:-2px; top:6px; width:12px; height:12px; border-radius:999px; background:var(--brand); box-shadow:0 0 0 4px color-mix(in srgb, var(--brand) 40%, transparent) }
+    .tl-item .when{ font-size:12px; color:var(--muted) }
+    .tl-item .role{ font-weight:700 }
+
+    .project{ display:flex; flex-direction:column; gap:8px }
+    .project img{ width:100%; aspect-ratio:16/9; object-fit:cover; border-radius:12px; border:1px solid color-mix(in srgb, var(--text) 10%, transparent) }
+
+    footer{ margin-top:36px; padding:18px 0; color:var(--muted); font-size:14px; text-align:center }
+
+    /* 列印友善 */
+    @media print{
+      header, .btn.print-hide, .chip { display:none !important }
+      body{ background:white; color:black }
+      .card{ box-shadow:none; border-color:#ddd }
+      a{ color:black; text-decoration:underline }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <img class="avatar" src="https://avatars.githubusercontent.com/u/9919?s=80" alt="頭像" />
+        <strong>洪苙凱 Robin</strong>
+      </div>
+      <nav style="display:flex; gap:16px">
+        <a href="#about">關於我</a>
+        <a href="#skills">技能</a>
+        <a href="#experience">經歷</a>
+        <a href="#projects">作品</a>
+        <a href="#contact">聯絡</a>
+        <button class="btn print-hide" id="printBtn" title="列印/存成 PDF">🖨️ 列印</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <span class="chip">👋 嗨！很高興認識你</span>
+        <h1>我是 <span style="text-decoration:underline wavy var(--accent)">洪苙凱 Robin</span>，一位 <em> 立志成為軟體工程師</em> 的年輕人</h1>
+        <p class="lead"> - 期待在軟體領域發揮所長並持續成長 - </p>
+        <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:14px">
+          <a class="btn" href="#projects">查看作品</a>
+          <a class="btn" href="mailto:likaihong59@gmail.com">📧 寄信給我</a>
+          <a class="btn" href="#" download>⬇️ 下載履歷</a>
+        </div>
+      </div>
+      <div class="card">
+        <h2 style="margin-top:0">快速資訊</h2>
+        <ul style="margin:0; padding-left:18px">
+          <li>所在地：台北／新竹／遠端皆可</li>
+          <li>年資／領域：0 年</li>
+          <li>正在尋找：Java 後端工程師 </li>
+          <li>興趣：聽音樂、看書、投資</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="card">
+        <h2>關於我</h2>
+        <p>具備工程背景，熟悉基礎 Java、Python、C# ，掌握資料結構、演算法與資料庫基礎概念，持續實作專案並強化問題解決能力與系統化思維。</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="card">
+        <h2>技能</h2>
+        <div class="grid cols-3">
+          <div>
+            <strong>後端 / 語言</strong>
+            <div>
+              <span class="tag">Java</span>
+              <span class="tag">Python</span>
+              <span class="tag">C#</span>
+            </div>
+          </div>
+          <div>
+            <strong>雲端 / DevOps</strong>
+            <div>
+              <span class="tag">AWS (EC2, RDS, VPC)</span>
+            </div>
+          </div>
+          <div>
+            <strong>資料庫 / 其他</strong>
+            <div>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="card">
+        <h2>工作與學習經歷</h2>
+          <div class="tl-item">
+            <div class="role">助理工程師 — 億力鑫系統科技</div>
+            <div class="when">2025/05 — now｜新竹</div>
+            <div>半導體機台組裝，管路配置。</div>
+          </div>
+          <div class="tl-item">
+            <div class="role">國立台北科技大學 — 工業工程與管理系</div>
+            <div class="when">2020 — 2024</div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="card">
+        <h2>精選作品</h2>
+        <div class="grid cols-2">
+          <article class="project">
+            <img src=https://tse3.mm.bing.net/th/id/OIP.jBrsjT8xD2nT4EwKzonv1gHaDr?pid=Api&P=0&h=180 />
+            <div style="display:flex; justify-content:space-between; align-items:center">
+              <strong>智慧圖書館資料串流平台 - Spring Data JDBC, JPA, R2DBC(MySQL)_Local,AWS RDS</strong>
+            </div>
+            <p>功能 - 功能 - 提供 REST API，實現資料庫連線與書籍資料的查詢、插入、更新、刪除（CRUD）操作。<br><br>
+			   技術 - Java（Spring Boot）、MySQL、SQL 基本操作（CRUD）、AWS 資料庫連線與管理、Repository 設計模式。
+			</p>
+          </article>
+          <article class="project">
+            <img src="https://institute.careerguide.com/wp-content/uploads/2023/09/icu_image-1.jpg" />
+            <div style="display:flex; justify-content:space-between; align-items:center">
+              <strong>智慧生理訊號監控平台 - ICU多訊號即時分析</strong>
+            </div>
+            <p>功能 - 即時監控與顯示 ICU 病患多種生理訊號，協助醫護人員掌握病情數據與異常警示<br><br>
+			   技術 - H2DB, 多執行緒處理, WebSocket 程式設計、REST API、 Node.js
+			</p>
+          </article>
+		  <article class="project">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.aFzB_etatKQGHNtuw-XnJAHaDt?pid=Api&P=0&h=180" />
+            <div style="display:flex; justify-content:space-between; align-items:center">
+              <strong>語言通用性實作 - Maven_Java,Python</strong>
+            </div>
+            <p>功能 - 在 Java 中導入 Python, 實現多語言協作<br><br>
+			   技術 - Maven, Jython, Runtime
+			</p>
+          </article>
+		  <a class="btn" href="https://github.com/likai59/Project-Public" target="_blank" rel="noopener">所有專案原始碼 / Demo </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="card">
+        <h2>聯絡我</h2>
+        <form onsubmit="return submitForm(event)" style="display:grid; gap:10px; max-width:560px">
+          <input required class="input" name="name" placeholder="你的名字" />
+          <input required class="input" name="email" type="email" placeholder="你的 Email" />
+          <textarea required class="input" name="message" rows="5" placeholder="想聊聊什麼？"></textarea>
+          <button class="btn" type="submit">送出</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> 洪苙凱 Robin — 最後更新：<span id="updated"></span>
+    </footer>
+  </main>
+
+  <script>
+    // 小工具：列印、年份、最後更新時間、與 mailto 快速寄送
+    const $ = (s)=>document.querySelector(s);
+    document.getElementById('printBtn').addEventListener('click', ()=> window.print());
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('updated').textContent = new Date(document.lastModified).toLocaleDateString('zh-TW');
+
+    function submitForm(e){
+      e.preventDefault();
+      const f = e.target;
+      const params = new URLSearchParams(new FormData(f)).toString();
+      const subject = encodeURIComponent('從自我介紹頁面來的訊息');
+      const body = decodeURIComponent(params).replaceAll('&','%0A');
+      window.location.href = `mailto:your@email.com?subject=${subject}&body=${body}`;
+      return false;
+    }
+  </script>
+</body>
+</html>
